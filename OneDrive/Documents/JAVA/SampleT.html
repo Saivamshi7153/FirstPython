@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College Timetable</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+           margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>College Timetable</h2>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th colspan="2">Monday</th>
+            <th colspan="2">Tuesday</th>
+            <th>Wednesday</th>
+            <th colspan="2">Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td rowspan="2">8:00 AM - 9:00 AM</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td rowspan="2">English</td>
+            <td>Chemistry</td>
+            <td>Computer Science</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td>Biology</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td>Physics</td>
+            <td>Math</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>Computer Science</td>
+            <td>Physics</td>
+            <td>English</td>
+        </tr>
+        <!-- Add more rows for other times and days -->
+    </table>
+
+</body>
+
+</html>
